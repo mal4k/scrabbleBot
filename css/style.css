@@ -1,0 +1,62 @@
+#board {
+    margin: 50px 50px;
+}
+.menu-panel {
+    margin: 50px 0;
+
+}
+.board-row {
+    background-color: #BEB9A6;
+}
+.field {
+    /*float: left;*/
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.field-input {
+    width: 50px;
+    height:50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align:center;
+    background-color: transparent;
+    border: none;
+    color: brown;
+}
+.start-field {
+    background-color: #FBBBB9;
+}
+.triple-word-score{
+    background-color: #F75D59;
+}
+.double-word-score{
+    background-color: #FBBBB9;
+}
+.double-letter-score {
+    background-color: #A0CFEC;
+}
+.triple-letter-score {
+    background-color: #157DEC;
+}
+
+#hands {
+    margin: 50px;
+}
+.hand-field {
+    /*float: left;*/
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #BEB9A6;
+}
+.hand-input {
+    width: 50px;
+    height:50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align:center;
+    background-color: transparent;
+    border: none;
+    color: brown;
+}
