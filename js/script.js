@@ -134,8 +134,8 @@ function init_buttons(){
         data["do"] = "analyze";
         read_hand();
         data["hand"] = hand;
-        data["duden"] = $('#check-duden').is('checked');
-        console.log($('#check-duden').is('checked'));
+        data["duden"] = $('#check-duden').is(':checked');
+        console.log($('#check-duden').is(':checked'));
         data["max-results"] = $('#max-results').val();
         $.ajax({
             type: 'POST',

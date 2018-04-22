@@ -154,9 +154,13 @@ def validate_online(words):
     url = "https://www.duden.de/suchen/dudenonline/"
     for word in words:
         req = Request(url + str(word), headers={'User-Agent': 'Mozilla/5.0'})
-        site = urlopen(req)
-        data = json.loads(site.read().decode())
-        i = "af"
+        try:
+            site = urlopen(req)
+            data = json.loads(site.read().decode())
+            print(data)
+            i = "af"
+        except:
+            print(url + str(word))
     return words
 
 # DEPRECATED:
